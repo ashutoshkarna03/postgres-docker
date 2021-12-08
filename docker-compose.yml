@@ -10,8 +10,8 @@ services:
         - ./postgres/logs:/logs
         - ./postgres/config/postgresql.conf:/etc/postgresql.conf
     environment:
-      POSTGRES_PASSWORD: helloworld1!
-      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: <your_password>
+      POSTGRES_USER: <your_user>
       POSTGRES_DB: test
     ports: 
         - 5432:5432
